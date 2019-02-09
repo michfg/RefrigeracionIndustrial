@@ -1,0 +1,300 @@
+body{
+/*  background-color: #27597C;*/
+background-color: #fff;
+}
+.header {
+  overflow: hidden;
+  background-color: #6B6E70;
+  padding: 0px 10px;
+}
+
+/* el estilo de los links del header */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+img.d-block{
+    width: 100%;
+    height: 202%;
+}
+
+/*la letra de ColdTech en la barra de navegacion */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Cambiar el color de fondo con el mouse-over */
+.header a:hover {
+  background-color: #23292E;
+  color: white;
+}
+
+/* Flota la sección de enlace a la derecha. */
+.header-right {
+  float: right;
+}
+
+/*#slideer{
+  border-radius: 10px;
+  padding: 0px;
+}
+
+#slider{
+  margin-top: -49.6%;
+  border-radius: 10px;
+  position: relative;
+  height: auto;
+  background-color: pink;
+  margin-left: auto;
+  margin: auto;
+}
+#slider > div{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}*/
+
+
+
+#logo{
+  width: 20%;
+  margin-top: -13.5%;
+  margin-left: 5%;
+  position: absolute;
+}
+
+#telefono{
+  margin-top: -7.3%;
+  margin-left: 80%;
+  position: absolute;
+}
+
+/* Este es el texto Refrigeracion industrial que se encuentra en el head */
+
+#titulo{
+  margin-top: -9%;
+  margin-left: 38%;
+  position: absolute;
+  font-size: 250%;
+}
+
+#imgmexico{
+  width: 2%;
+  margin-top: -7%;
+  margin-left: 77.7%;
+  position: absolute;
+}
+
+/*linea que divide el header de la barra de menu*/
+#linea{
+  height: 3px;
+  background-color: white;
+}
+
+#cuerpo{
+  /*background-color: red;*/
+}
+
+#formulario{
+  margin-left: 10px;
+  width: 600px;
+  height: 200px;
+  background-color: blue;
+}
+#formulario{
+  border-radius: 10px;
+  padding: 0px;
+}
+
+#formulario{
+  margin-top: 1%;
+  border-radius: 10px;
+  position: relative;
+  height: 350px;
+  background-color: pink;
+  margin-left: 3%;
+}
+#formulario > div{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.card:hover{
+  background-color: #B9D2E6;
+}
+
+#historia{
+padding: 5%;
+margin:auto;
+border: white 8px ridge;
+border-radius: 10px;
+}
+
+#history{
+  margin: auto;
+  width:auto; 
+  height: auto;
+}
+
+ footer{
+padding: 2%;
+margin-top: 4%;
+    }
+
+#letred{
+color: black;
+}
+#imgred{
+height: 30px;
+width: 30px;
+    }
+#redes{
+background-color: white;
+margin-top: 50px;
+margin-left: 230px;
+width: 400px;
+height: 200px;
+position: absolute;
+}
+#info{
+background-color: white;
+margin-top: 50px;
+margin-left: 690px;
+width: 400px;
+height: 200px;
+position: absolute;
+text-align: center;
+}
+.row{
+  margin-top: 2%;
+}
+
+/*/Cuadro de descripciom/*/
+#descripcionServicio{
+  padding: 5%;
+}
+/*/Carrusel del servicio/*/
+
+#carousel{
+  margin: auto;
+}
+/*/Titulo de menu servicios/*/
+#txtServicios{
+  text-align: center;
+  padding: 3%;
+}
+
+
+
+/* texto de la palabra sucursal, titulo de la ventana*/
+#txtsucursal{
+  text-align: center;
+  padding: 2%;
+}
+/*/Nombre de cada sucursal/*/
+#txtnombreSucursal{
+  text-align: center;
+  margin-bottom: 2%
+
+}
+/*/imagen de cada sucursal/*/
+.img-thumbnail {
+    padding: 1%;
+}
+
+/*/div del mapa/*/
+#mapa{
+  padding: 2%;
+}
+
+/*/Seccion de la segunda sucursal/*/
+#segundaSucursal{
+  margin-top:  2%;
+}
+
+
+/*  media es requerido para que sea responsivo - cuando la pantalla llega a 500px , cada opcion del nav se va a apilar */ 
+/*@media screen and (max-width: 600px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+
+#telefono{
+  margin-top: -7.3%;
+  position: absolute;
+  font-family: Arial;
+  font-size: 60%;
+}
+
+#titulo{
+   display: none;
+}
+
+
+
+ footer{
+margin-top: 455px;
+position: absolute;
+height: 308px;
+width: 100%;
+background-color: #ffffff;
+    }
+
+#letred{
+color: black;
+}
+#imgred{
+height: 30px;
+width: 30px;
+    }
+#redes{
+background-color: white;
+margin-top: 60px;
+margin-left: -30px;
+width: 270px;
+height: 70px;
+position: absolute;
+}
+#info{
+background-color: white;
+margin-top: 70px;
+margin-left: 109px;
+width: 132px;
+height: 238px;
+position: absolute;
+text-align: left;
+font-size: 9px;
+}
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+#titulo{
+
+  margin-top: -9%;
+  margin-left: 30%;
+  position: absolute;
+  font-size: 200%;
+}
+#imgmexico{
+  margin-top: -6.5%;
+}
+}*/
+
